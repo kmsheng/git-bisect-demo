@@ -5,5 +5,5 @@
  * @param {b} second number
  */
 module.exports = function add(a, b) {
-  return a + b;
+  throw new Error('This is the code that breaks add function.');
 };
